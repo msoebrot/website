@@ -9,6 +9,10 @@ img {
     border-radius: 30px;
 }
 
+img:hover{
+    border:1px solid rgba(5, 8, 25, 0.74);
+}
+
 
 a:link {
     color:rgb(0, 92, 128);
