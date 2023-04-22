@@ -10,6 +10,7 @@ body{
     background: -moz-linear-gradient(top, #F4F4F4 0%, #B0C0D3 50%, #99ADBC 100%);
     background: -webkit-linear-gradient(top, #F4F4F4 0%, #B0C0D3 50%, #99ADBC 100%);
     background: linear-gradient(to bottom, #F4F4F4 0%, #B0C0D3 50%, #99ADBC 100%);
+    background-attachment: fixed; 
 
     display: flex;
     flex-direction: column;
