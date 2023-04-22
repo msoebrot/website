@@ -51,9 +51,9 @@ img.icon{
 }
 
 img.icon:hover{
-    border:1px solid purple;
-    width: "49px"; 
-    height: "49px";
+    border:2px solid purple;
+    width: "46px"; 
+    height: "46px";
 }
 
 a:visited {
@@ -70,6 +70,14 @@ a:hover {
 
 .project-list .project-item{
     padding: 2.0em;
+}
+
+.project-list .project-item img:hover {
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+            filter: grayscale(100%); 
 }
 
 .project-list .project-item dd{
