@@ -9,22 +9,27 @@
         <h1> Welcome to my HTML page! </h1>
         <div>
             <img src="profile.png" alt="Michael images" width="200px" height="400px">
-            <h2>Michael Soebroto</h2>
+            <h2 id="name">Michael Soebroto</h2>
             <p>My name is Michael (he/him). I am a third year Computer Science Major at the 
                 University of California, Santa Cruz. I enjoy watching 
                 K-Dramas on Netflix and am deeply interested in anything 
                 having to do with the NBA/Basketball. </p>
             <div class="icon-row">
-                <a href="https://github.com/msoebrot"><img class="icon" src="github.png" alt="GitHub Link" width="100px" height="100px"></a>
-                <a href="www.linkedin.com/in/michael-soebroto/ "><img class="icon" src="lnkin.png" alt="Linkedin Link" width="100px" height="100px"></a>
+                <a href="https://github.com/msoebrot"><img class="icon git" src="github.png" alt="GitHub Link" width="100px" height="100px"></a>
+                <a href="www.linkedin.com/in/michael-soebroto/ "><img class="icon linkedin" src="lnkin.png" alt="Linkedin Link" width="100px" height="100px"></a>
+                <a href="https://www.facebook.com/michael.soebroto.5"> <img class="icon facebook" src="facebook.png" alt="Facebook Link" width="100px" height="100px"> </a>
             </div>
         </div>
         <h2> Projects </h2>
-        <dl>  
-            <dt> <a href="https://msoebrot.github.io/weatherapp/"> Weather App</a></dt> 
-                <dd> Tells you the weather! Made using HTML, CSS and JavaScript </dd>
-            <dt> <a href="https://msoebrot.github.io/website/businesscard/"> Business Card</a> </dt>
-                <dd> A practice website used to format a business card. </dd>
+        <dl class="project-list"> 
+            <div class="project-item"> 
+                <dt> <a href="https://msoebrot.github.io/weatherapp/"> <img src="cloud.png" alt="WeatherApp Link" width="140px" height="100px"></a></dt> 
+                    <dd> <a href="https://msoebrot.github.io/weatherapp/">WeatherApp</a>: Tells you the weather! Made using HTML, CSS and JavaScript </dd>
+            </div>
+            <div class="project-item">
+                <dt> <a href="https://msoebrot.github.io/website/businesscard/"> <img src="gibbycard.png" alt="BusinessCard Link" width="140px" height="100px"></a> </dt>
+                    <dd> <a href="https://msoebrot.github.io/website/businesscard/"> BusinessCard</a>: A practice website used to format a business card. </dd>
+            </div>
         </dl>
     </body>
 </html>
