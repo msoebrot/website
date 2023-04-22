@@ -1,46 +1,62 @@
 html {
-    font-family: 'sans serif';
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 24px;
     height: 100%;
 }
 
 body{
     min-height: 100%;
-    background: #7A7C7C;
-    background: -moz-linear-gradient(left, #7A7C7C 0%, #D5D5D5 100%);
-    background: -webkit-linear-gradient(left, #7A7C7C 0%, #D5D5D5 100%);
-    background: linear-gradient(to right, #7A7C7C 0%, #D5D5D5 100%);
-    margin:100px auto;
+    background: #F4F4F4;
+    background: -moz-linear-gradient(top, #F4F4F4 0%, #B0C0D3 50%, #99ADBC 100%);
+    background: -webkit-linear-gradient(top, #F4F4F4 0%, #B0C0D3 50%, #99ADBC 100%);
+    background: linear-gradient(to bottom, #F4F4F4 0%, #B0C0D3 50%, #99ADBC 100%);
 
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 0.3em;
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-.div {
-    display: flex;
-    align-items: center;
-    padding: 0.3em;
+h1{
+    text-align: center;
 }
 
-img {
-    border-radius: 30px;
+div {
+    text-align: center;
 }
 
-img:hover{
+div img{
+    float: left;
+}
+
+
+div p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+img.icon{
+    border-radius: 300px;
+    margin: 2em;
+}
+
+div .icon-row {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+img.icon:hover{
     border:1px solid purple;
     width: "49px"; 
     height: "49px";
 }
 
-
-a:link {
-    color:rgb(0, 92, 128);
-}
-
 a:visited {
-    color:rgb(0, 234, 255);
+    color:rgb(0, 92, 128);
 }
 
 a:hover {
