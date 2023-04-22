@@ -1,8 +1,27 @@
-html{
+html {
+    font-family: 'sans serif';
+    font-size: 24px;
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
     background: #7A7C7C;
     background: -moz-linear-gradient(left, #7A7C7C 0%, #D5D5D5 100%);
     background: -webkit-linear-gradient(left, #7A7C7C 0%, #D5D5D5 100%);
     background: linear-gradient(to right, #7A7C7C 0%, #D5D5D5 100%);
+    margin:100px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.3em;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    padding: 0.3em;
 }
 
 img {
@@ -10,7 +29,9 @@ img {
 }
 
 img:hover{
-    border:1px solid rgba(5, 8, 25, 0.74);
+    border:1px solid purple;
+    width: "49px"; 
+    height: "49px";
 }
 
 
@@ -23,5 +44,5 @@ a:visited {
 }
 
 a:hover {
-    font-weight: bold;
+    color: purple;
 }
