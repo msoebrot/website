@@ -177,3 +177,8 @@ a:hover {
       transition: all 0.3s;
     }
 }
+
+#busicard {
+  border-radius: 6px;
+  border: 1px solid black;
+}
